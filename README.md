@@ -71,7 +71,6 @@ cd hse_mlops_25_hw1
 
 # Скачать train.csv из соревнования и поместить в train_data/
 # https://www.kaggle.com/competitions/teta-ml-1-2025
-mkdir -p train_data input output
 cp /path/to/train.csv ./train_data/
 ```
 
@@ -135,7 +134,7 @@ python train_model.py
 - Убедитесь, что файл имеет расширение `.csv`
 - Проверьте, что директория `./input/` правильно примонтирована
 
-**Docker build завершается с ошибкой**
+**Контейнер падает сразу после запуска**
 - Убедитесь, что `train.csv` находится в `./train_data/`
 
 ---
