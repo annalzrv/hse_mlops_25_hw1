@@ -32,3 +32,4 @@ logs/
 
 # Jupyter
 .ipynb_checkpoints/
+catboost_info/
